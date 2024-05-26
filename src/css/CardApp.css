@@ -1,0 +1,96 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.Contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px
+}
+.Caja-inicio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    gap:10px;
+    justify-content: center;
+    width: 200px;
+}
+
+.titulo-inicio{
+    display: flex;
+    padding: 1px;
+    text-align: center;
+    justify-content: center;
+}
+button{
+   width: max-content;
+   display: flex;
+   position: relative;
+   left: 30%;
+   border-radius: 10px;
+   padding: 6px;
+   
+}
+button:hover{
+    background-color: cadetblue;
+    color: #fff;
+    border: 1px solid;
+    transition: 1s;
+}
+.Contenedor-Cajas{
+    display: flex;
+    flex-wrap: wrap;
+    gap:8px;
+    align-content: center;
+    justify-content: center;
+   
+}
+
+.Caja{
+
+    display: flex;
+    flex-direction:column;
+    border:1px solid;
+    width: 300px ;
+    gap:10px;
+    border-radius: 8px;
+    
+}
+.Caja{
+    display: flex;
+    
+
+
+    
+}
+.title{
+    display: flex;
+    background-color: rgb(86, 87, 87,0.3);
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid
+    }
+
+.Caja-userid{
+  display: flex;
+}    
+
+.userid{
+  padding: 5px;
+
+}
+.Caja-body{
+display: flex;
+}
+.texto-body{
+    display: flex;
+    padding: 8px;
+}
